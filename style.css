@@ -1,0 +1,113 @@
+body{
+   margin: 0;
+   padding: 0;
+   
+}
+.button{
+    background-color:dodgerblue ;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-image: url("image/banner.png");
+    
+}
+.left-corner{
+    float: left;
+
+} 
+.right-menu{
+    float: right;
+    position: relative;
+    bottom: -20px;
+}
+.right-menu a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.right-menu span{
+    text-decoration: none;
+    margin-right: 8px;
+    
+
+}
+.left-corner{
+    margin-left: 20px;
+}
+.left-corner span{
+    color: dodgerblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.middle-banner{
+    text-align: center;
+    float: left;
+    margin-top: 7%;
+    margin-bottom: 12%;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.middle-banner button{
+    background-color: dodgerblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+}
+.middle-banner p{
+    line-height: 30px;
+    font-size: 20px;
+}
+/* this is second section */ 
+.sections-2{
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+    
+
+
+}
+.section-2-middle{
+    text-align: center;
+    
+}
+.section-2-middle img{
+    width: 20%;
+    border-radius: 100%;
+    float: left;
+    border: 5px solid rgb(225, 216, 199);
+}
+.sections-2-right{
+     width: 80%;
+     text-align: justify;
+     position: relative;
+     left: 3%;
+     
+     
+     
+}
+.sections-2-right p{
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+
+
+
+
